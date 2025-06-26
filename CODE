@@ -1,4 +1,4 @@
-PROGRAM FOR DATA STORED IN RFID TAG :-
+PROGRAM FOR DATA STORED IN RFID TAG (ARDUINO IDE):-
 
 #include <SPI.h>
 #include <MFRC522.h>
@@ -157,7 +157,7 @@ void dumpSerial(int blockNum, byte blockData[])
 }
 
 
-PROGRAM FOR GOOGLE SPREADSHEET :-
+PROGRAM FOR GOOGLE SPREADSHEET (APPS SCRIPT):-
 
 var SS = SpreadsheetApp.openById('ENTER_SHEET_ID');
 var timezone = "Asia/kalKota"
@@ -231,7 +231,7 @@ function doPost(e) {
   }
 }
 
-PROGRAM FOR STUDENT ATTENDANCE SYSTEM :-
+PROGRAM FOR STUDENT ATTENDANCE SYSTEM (ARDUINO IDE):-
 
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
